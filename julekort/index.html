@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Julekort</title>
+
+
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+
+
+<body>
+
+
+    <main>
+
+        <div class="container" id="createbox">
+
+            <div class="style">
+
+                <h1>Julekort</h1>
+                <h3>Her kan du lage eige julekort.</h3>
+
+                <p></p>
+
+                <div class="overskrift">
+                    <h3>Overskrift:</h3>
+                    <input type="text" id="header">
+                </div>
+
+                <p></p>
+
+                <div class="tekst">
+                    <h3>Tekst:</h3>
+                    <textarea id="text" name="overskrift" rows="4" cols="40"></textarea>
+                </div>
+
+                <p></p>
+
+                <div class="fra">
+                    <h3>Fra:</h3>
+                    <input type="text" id="from">
+                </div>
+
+                <p></p>
+
+                <div class="bilde">
+                    <h3>Bilde:</h3>
+                    <select name="bilde" id="bilde">
+                        <option value="julenisse">Julenisse</option>
+                        <option value="julekuler">Julekuler</option>
+                        <option value="snøman">Snøman</option>
+                        <option value="juletre">Juletre</option>
+                    </select>
+                </div>
+
+                <div class="bakgrunnsfarge">
+                    <h3>Bakgrunnsfarge:</h3>
+                    <input type="color" id="color">
+                </div>
+
+                <div class="skriftfarge">
+                    <h3>Skriftfarge:</h3>
+                    <input type="color" id="color2">
+                </div>
+
+                <p></p>
+
+                <button type="button" onclick="create()">Lag julekort</button>
+
+
+
+            </div>
+
+        </div>
+
+        
+            <div class="new" id="newcard">
+        
+                <div class="newheader">
+                    <h1 id="newheader"> </h1>
+                </div>
+        
+                <div class="newtext">
+                    <h1 id="newtext"> </h1>
+                </div>
+        
+                <div class="newimage">
+                    <img id="newimage" src="img/julenisse.png" alt="">
+                </div>
+        
+                <div class="newfrom">
+                    <h1 id="newfrom"> </h1>
+                </div>
+
+               
+                <div class="printButton">
+                    <button onclick="window.print()">Print Julekort</button>
+                </div>
+                
+             
+            </div>
+
+            
+
+    </main>
+
+    
+
+    <script src="js/main.js"></script>
+</body>
+
+
+
+
+</html>

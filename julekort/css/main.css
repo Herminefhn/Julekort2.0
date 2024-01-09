@@ -1,0 +1,89 @@
+html {
+    background-color: brown;
+}
+
+.main {
+    max-width: 600px;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+
+.container {
+    height: 700px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(32, 32, 32, 0.703) ;
+}
+
+
+.new{
+    display: none;
+    height: 800px;
+    width: 600px;
+    padding: 20px 40px;
+    border-radius: 10px;    
+    box-shadow: 10px 10px rgba(32, 32, 32, 0.703) ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.new img {
+    width: 200px;
+    position:static;
+    display: flex;
+}
+
+.newtext {
+    padding-top: 100px;
+}
+
+.newimage {
+    padding-right: 150px;
+}
+
+.printButton{
+    align-items:end;
+}
+
+/*
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+*/
