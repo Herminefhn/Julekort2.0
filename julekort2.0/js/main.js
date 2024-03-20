@@ -57,3 +57,4 @@ function printNewOrders(){
   window.print();
 }
 $(document).on("click", "#print-click", printNewOrders);
+
